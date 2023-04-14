@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="javascript.js"></script>
+    <title></title>
+  </head>
+  <body >
+    <center><h1>Task Heba</h1></center>
+    <hr><hr>
+
+
+    <h2>1- Check if a number is odd or even </h2>
+    <p>Please enter the number !</p>
+	<input type="text" id="numberInput" placeholder="Enter Number to Check">
+  <br><br>
+	<button onclick="checkNumber()">Check !</button>
+  <br><br><hr><hr>
+
+
+  <h2>2- Find the largest of two number</h2>
+  <p>Enter two numbers:</p>
+  <input type="text" id="num1" placeholder="num1">
+	<input type="text" id="num2" placeholder="num2">
+	<button onclick="showResult()">Find Largest</button>
+  <br><br>
+	<div id="result"></div>
+  <br><br><hr><hr>
+
+
+<h2>3- Find the Largest of Three Numbers</h2>
+	<p>Enter three numbers:</p>
+	<input type="text" id="n1" placeholder="num1">
+	<input type="text" id="n2" placeholder="num2">
+	<input type="text" id="n3" placeholder="num3">
+	<button onclick="showResult2()">Find Largest</button>
+	<div id="result2"></div>
+  <br><br><hr><hr>
+
+
+<h2>4- Perform arithmetic operations on two numbers</h2>
+  <label for="number1">First number:</label>
+      <input type="number" id="number1" name="number1"><br><br>
+      <label for="number2">Second number:</label>
+      <input type="number" id="number2" name="number2"><br><br>
+      <label for="operation">Select operation:</label>
+      <select id="operation" name="operation">
+        <option value="add">Addition (+)</option>
+        <option value="subtract">Subtraction (-)</option>
+        <option value="multiply">Multiplication (*)</option>
+        <option value="divide">Division (/)</option>
+        <option value="modulus">Modulus (%)</option>
+        <option value="power">Power (**) </option>
+      </select><br><br>
+      <button onclick="calculate()">Calculate</button><br><br>
+      <div id="result3"></div>
+      <br><br><hr><hr>
+
+
+    <h2>5- Leap Year Checker</h2>
+    <p>Enter a year to check if it's a leap year:</p>
+    <input type="text" id="year-input">
+    <button onclick="checkYear()">Check</button>
+    <p id="Resulty"></p>
+    <hr><hr>
+
+
+    <h2>6- Grade Calculator</h2>
+        <p>Enter your marks to calculate your grade:</p>
+        <input type="text" id="marks-input">
+        <button onclick="calculateGradeResult()">Calculate</button>
+        <p>Your grade is: <span id="grade"></span></p>
+        <hr><hr>
+
+
+        <h1>7- Number of Days in a Month</h1>
+      	<form>
+          <label for="year">Enter year: </label>
+      		<input type="number" id="year" name="year" min="1880" max="2050" required>
+          <br><br>
+      		<label for="month">Enter Month (0-11):</label>
+      		<input type="number" id="month" name="month" min="1" max="12" required>
+          <br><br><i>( 0 >> Jan  and 11 >> Dec )</i><br>
+      		<button type="button" onclick="getDays()">Get Number of Days</button>
+      	</form>
+      	<b id="resultMonth"></b>
+        <hr><hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
